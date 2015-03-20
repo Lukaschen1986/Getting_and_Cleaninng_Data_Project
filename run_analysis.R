@@ -53,11 +53,6 @@ train_subjects <- read.table(path_subject_train, header=FALSE)
 colnames(train_subjects) <- "subject"
 train_data <- cbind(train_data, train_labels["action"], train_subjects)
 
-#data <- cbind(train_labels["action"], train_subjects)
-#write.table(data, file="test1.csv", sep=";")
-#data <- cbind(test_labels["action"], test_subjects)
-#write.table(data, file="test2.csv", sep=";")
-
 #-----5th step-----combine test and train vertically-----
 #10299 (561+2)
 mergedData <- rbind(test_data, train_data)
