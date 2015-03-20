@@ -1,4 +1,4 @@
-#INTRO
+##INTRO
 This is the simple description for "run_analysis.R".
 It is highly recommended to read the code and this text at the same time.
 
