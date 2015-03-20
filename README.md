@@ -3,15 +3,15 @@ This is the simple description for "run_analysis.R".
 It is highly recommended to read the code and this text at the same time.
 
 ##1st step : download and unzip the raw data (only once)
-1) verify if the zip file exists in the working directory.
-2) if not, try to download and unzip it. print the download time at the console.
+1. verify if the zip file exists in the working directory.
+2. if not, try to download and unzip it. print the download time at the console.
 
 ##2nd step : preparation
-1) read the feature file and get the index of variables of mean() and std() 
-2) read the activity file
+1. read the feature file and get the index of variables of mean() and std() 
+2. read the activity file
 
 ##3rd step : read test repository
-1) read the test_data and assign its column names with features
+1. read the test_data and assign its column names with features
 2) read the test labels and name them with descriptive activity names
 3) read the test subjects and combine the informations of data, labels and subjects together
 
