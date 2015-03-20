@@ -29,6 +29,7 @@ path_test_labels <- ".\\UCI HAR Dataset\\test\\y_test.txt"
 test_labels <- read.table(path_test_labels, header=FALSE)
 colnames(test_labels) <- "id"
 test_labels <- join(test_labels, activities, by = "id", type = "left", match="all")
+
 #read subjects_test 2947 1
 path_subject_test <- ".\\UCI HAR Dataset\\test\\subject_test.txt"
 test_subjects <- read.table(path_subject_test, header=FALSE)
